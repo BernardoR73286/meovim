@@ -14,7 +14,7 @@ mnw.lib.wrap pkgs {
     optAttrs = import ./packages/optPlugins.nix { inherit pkgs; };
     dev.config = {
       pure = ./nvim;
-      impure = "/home/emanresu/Documents/projects/meovim/nvim"; # Absolute path needed
+      impure = "/home/bernardo/meovim/nvim"; # Absolute path needed
     };
   };
   extraBinPath = import ./packages/binaries.nix { inherit pkgs; };

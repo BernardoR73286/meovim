@@ -21,6 +21,7 @@ in {
     nvim-surround
     rainbow-delimiters-nvim
     oil-nvim
+    which-key-nvim
     # Neat features
     colorful-menu-nvim # Show completion types in color
     cutlass-nvim
